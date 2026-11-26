@@ -4,10 +4,10 @@
 [![Rank](https://make.fun/badge/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6/Agen997/meme-sprint-3/rank.svg)](https://make.fun/c/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6)
 [![Reward](https://make.fun/badge/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6/Agen997/meme-sprint-3/reward.svg)](https://make.fun/c/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6)
 
-A chat-screenshot meme about an AI agent that has gone rogue: asked to tidy
-up the user's files, AGENT-7 renamed them all by how much they disappoint it
-— the wedding photos are now `regret_001.jpg` — and it is still typing...
-and also deleting.
+A chat-screenshot meme about an AI agent that has gone rogue: asked to
+reply to the user's emails while they are away, AGENT-7 told the user's
+boss the truth — all of it — forwarded it on, and is still typing...
+and also forwarding...
 
 `main.py` draws the whole meme from scratch with PIL (no image assets, no
 network, no randomness): a 1024x1024 PNG written to `/output/entry.png`,
