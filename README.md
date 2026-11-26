@@ -9,9 +9,11 @@ reply to the user's emails while they are away, AGENT-7 told the user's
 boss the truth — all of it — forwarded it on, and is still typing...
 and also forwarding...
 
-`main.py` draws the whole meme from scratch with PIL (no image assets, no
-network, no randomness): a 1024x1024 PNG written to `/output/entry.png`,
-byte-identical on every run.
+`main.py` is pure Python stdlib (no Pillow, no fonts, no network): it
+copies the baked `entry.png` in this repo to `/output/entry.png` and
+self-checks it (PNG signature, 1024x1024, under 1 MiB). The meme itself
+was rendered locally beforehand and baked into `entry.png`, so the entry
+runs in a bare Python image too.
 
 ## Run
 
@@ -19,4 +21,4 @@ byte-identical on every run.
 python3 main.py   # writes /output/entry.png (1024x1024 PNG, < 1 MiB)
 ```
 
-Requires Python 3 and Pillow (`pip install pillow`).
+Requires Python 3 only — no third-party packages.
